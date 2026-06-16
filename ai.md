@@ -1,57 +1,5 @@
 # Kubernetes Resource Summary
 
-This document converts the contents of `k8s.txt` into a clear markdown summary with tables grouped by namespace and resource type.
-
-## Kubernetes Commands
-
-| Namespace | Command |
-|---|---|
-| ai-analytics-patch | `kubectl get all -n ai-analytics-patch -o wide` |
-| ai-analytics-prod | `kubectl get all -n ai-analytics-prod -o wide` |
-| ai-console-patch | `kubectl get all -n ai-console-patch -o wide` |
-| ai-console-prod | `kubectl get all -n ai-console-prod -o wide` |
-| ai-executor-patch | `kubectl get all -n ai-executor-patch -o wide` |
-| ai-executor-prod | `kubectl get all -n ai-executor-prod -o wide` |
-| ai-ka-patch | `kubectl get all -n ai-ka-patch -o wide` |
-| ai-ka-prod | `kubectl get all -n ai-ka-prod -o wide` |
-| ai-troubleshooting-patch | `kubectl get all -n ai-troubleshooting-patch -o wide` |
-| ai-troubleshooting-prod | `kubectl get all -n ai-troubleshooting-prod -o wide` |
-| aiassethub-patch | `kubectl get all -n aiassethub-patch -o wide` |
-| aiassethub-prod | `kubectl get all -n aiassethub-prod -o wide` |
-| aiconfig-patch | `kubectl get all -n aiconfig-patch -o wide` |
-| aiconfig-prod | `kubectl get all -n aiconfig-prod -o wide` |
-| aidataguide-patch | `kubectl get all -n aidataguide-patch -o wide` |
-| aidataguide-prod | `kubectl get all -n aidataguide-prod -o wide` |
-| aig-patch | `kubectl get all -n aig-patch -o wide` |
-| aig-prod | `kubectl get all -n aig-prod -o wide` |
-| aihelp-patch | `kubectl get all -n aihelp-patch -o wide` |
-| aihelp-prod | `kubectl get all -n aihelp-prod -o wide` |
-| aischeduler-patch | `kubectl get all -n aischeduler-patch -o wide` |
-| aischeduler-prod | `kubectl get all -n aischeduler-prod -o wide` |
-| aisfm-patch | `kubectl get all -n aisfm-patch -o wide` |
-| aisfm-prod | `kubectl get all -n aisfm-prod -o wide` |
-| aisrvhistory-patch | `kubectl get all -n aisrvhistory-patch -o wide` |
-| aisrvhistory-prod | `kubectl get all -n aisrvhistory-prod -o wide` |
-| aisummary-patch | `kubectl get all -n aisummary-patch -o wide` |
-| aisummary-prod | `kubectl get all -n aisummary-prod -o wide` |
-| amazon-guardduty | `kubectl get all -n amazon-guardduty -o wide` |
-| ingress-nginx-smax-api-ext-patch | `kubectl get all -n ingress-nginx-smax-api-ext-patch -o wide` |
-| ingress-nginx-smax-api-ext-prod | `kubectl get all -n ingress-nginx-smax-api-ext-prod -o wide` |
-| ingress-nginx-smax-api-internal-patch | `kubectl get all -n ingress-nginx-smax-api-internal-patch -o wide` |
-| ingress-nginx-smax-api-internal-prod | `kubectl get all -n ingress-nginx-smax-api-internal-prod -o wide` |
-| ingress-nginx-smax-io-ext-patch | `kubectl get all -n ingress-nginx-smax-io-ext-patch -o wide` |
-| ingress-nginx-smax-io-ext-prod | `kubectl get all -n ingress-nginx-smax-io-ext-prod -o wide` |
-| ingress-nginx-smax-io-internal-patch | `kubectl get all -n ingress-nginx-smax-io-internal-patch -o wide` |
-| ingress-nginx-smax-io-internal-prod | `kubectl get all -n ingress-nginx-smax-io-internal-prod -o wide` |
-| newrelic | `kubectl get all -n newrelic -o wide` |
-| serviceboard-ai-patch | `kubectl get all -n serviceboard-ai-patch -o wide` |
-| serviceboard-ai-prod | `kubectl get all -n serviceboard-ai-prod -o wide` |
-| sumologic | `kubectl get all -n sumologic -o wide` |
-| synthetics | `kubectl get all -n synthetics -o wide` |
-| wiz | `kubectl get all -n wiz -o wide` |
-
----
-
 ## Namespace: ai-analytics-patch
 
 ### Pods
